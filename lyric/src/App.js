@@ -3,7 +3,7 @@ import "./App.css";
 import NavBar from "./components/layout/NavBar";
 import Index from "./components/layout/Index";
 import { Provider } from "./context.js";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
